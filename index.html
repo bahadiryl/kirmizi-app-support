@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nöbetçi Eczane: Kırmızı App destek sayfası. İl seçimi, nöbet tarihleri, konum izni, harita ve yol tarifi hakkında yardım.">
+  <title>Destek · Nöbetçi Eczane: Kırmızı App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="top">
+      <a class="brand" href="index.html" aria-label="Nöbetçi Eczane: Kırmızı App destek ana sayfası">
+        <span class="brand-mark" aria-hidden="true"><span>nöbetçi</span><span>eczane</span></span>
+        <span>Kırmızı App</span>
+      </a>
+      <nav aria-label="Sayfalar"><a href="privacy.html">Gizlilik</a><a href="#destek">Destek</a></nav>
+    </header>
+    <main>
+      <p class="eyebrow">Nöbetçi Eczane: Kırmızı App</p>
+      <h1 class="wordmark"><span>Nöbetçi</span><span>Eczane</span></h1>
+      <p class="lead">Türkiye’nin 81 ilindeki nöbetçi eczaneleri liste ve haritada bul. Nöbet tarihini gör, eczaneyi ara ve yol tarifi al.</p>
+      <a class="button" href="https://github.com/bahadiryl/kirmizi-app-support/issues">Destek isteği oluştur</a>
+      <div class="features" aria-label="Uygulama özellikleri">
+        <p><strong>Liste ve harita</strong>İl, ilçe ve eczane adıyla ara. Konumu yayımlanan eczaneleri haritada gör.</p>
+        <p><strong>Açık nöbet tarihleri</strong>Geceyi bağlayan iki tarih ve gün adı, verinin alındığı zamanla birlikte gösterilir.</p>
+        <p><strong>Yakınındakiler</strong>Konum izniyle 2, 5, 10 veya 25 km yarıçapı seç. Tüm il listesine de bakabilirsin.</p>
+        <p><strong>Arama ve yol tarifi</strong>Telefonla ara; Apple Maps, Google Maps veya paylaşım menüsünü kullan.</p>
+      </div>
+      <h2>Sık sorulanlar</h2>
+      <details open>
+        <summary>Konum izni vermeden kullanabilir miyim?</summary>
+        <p>Evet. Üstteki il adına dokunup ilini elle seçerek listeyi kullanabilirsin. Yakınlık ve yarıçap hesabı için konum gerekir. Harita ilk açılışında da konum izni kontrol edilir; izin vermezsen il seçimiyle listeye bakmaya devam edebilirsin.</p>
+      </details>
+      <details>
+        <summary>Gece nöbetindeki iki tarih ne anlama geliyor?</summary>
+        <p>Örneğin “3 Ekim 2026 Cumartesi’yi 4 Ekim 2026 Pazar’a bağlayan gece” başlığı, gece yarısını geçen nöbet gününü açıklar. Saatler yalnızca kaynakta yayımlanmışsa gösterilir. Eczanelerin saatleri farklıysa listede hepsi için ortak bir saat aralığı yazılmaz.</p>
+      </details>
+      <details>
+        <summary>Konum alınamıyor. Ne yapmalıyım?</summary>
+        <p>Telefonun konum servislerinin açık olduğundan emin ol. Uygulama izni kapalıysa “İzin ver” veya “Ayarlara git” düğmesini kullan. Ayarlardan döndükten sonra “Yeniden dene”ye dokunabilirsin. Bu sırada il listesini elle seçerek kullanabilirsin.</p>
+      </details>
+      <details>
+        <summary>Liste boş veya “Eski kayıt” uyarısı var.</summary>
+        <p>Seçili nöbet tarihini ve veri zamanını kontrol et. Filtreleri temizleyip “Tüm il”i seç veya listeyi yenile. Kaynak geçici olarak yanıt vermiyorsa biraz sonra tekrar dene. Önceden alınmış bir liste gösterilirse gerçek tarihi korunur ve güncel olmadığı açıkça belirtilir.</p>
+      </details>
+      <details>
+        <summary>Yarın sekmesinde neden liste olmayabilir?</summary>
+        <p>Yarın için yalnızca veri kaynağının yayımladığı gelecek tarih gösterilir. Kaynak henüz yayımlamadıysa bugünün eczaneleri yarının listesi gibi gösterilmez.</p>
+      </details>
+      <details>
+        <summary>Yarıçap ve harita mesafesi nasıl hesaplanıyor?</summary>
+        <p>Yarıçap kuş uçuşu mesafedir; yürüyüş veya sürüş mesafesi değildir. Yayımlanmış konumu eksik bir eczane için işaretçi ya da mesafe üretilmez. Bu eczanelerin adreslerini “Tüm il” listesinde görebilirsin.</p>
+      </details>
+      <details>
+        <summary>Yol tarifi ve diğer uygulamalar nasıl çalışıyor?</summary>
+        <p>iPhone’da “Yol tarifi al” ile Apple Maps veya Google Maps seçebilirsin. Google Maps kurulu değilse web bağlantısı açılır. “Diğer uygulamalar”, seçtiğin eczanenin adresini ve konum bağlantısını telefonun paylaşım menüsüne verir. Yayımlanmış koordinat yoksa yol tarifi eczanenin tam adresiyle aranır.</p>
+      </details>
+      <div class="note">Nöbet bilgisi yayımlayan kaynaklar değişebilir. Gitmeden önce eczaneyi telefonla arayarak nöbetini ve adresini teyit et.</div>
+      <section class="contact" id="destek" aria-labelledby="destek-baslik">
+        <h2 id="destek-baslik">Yardım ve geri bildirim</h2>
+        <p>Bir hata veya yanlış kayıt görürsen <a href="https://github.com/bahadiryl/kirmizi-app-support/issues">GitHub destek sayfasında</a> bildir. İl, nöbet tarihi, uygulama sürümü ve sorunun kısa açıklaması yeterli.</p>
+        <p class="small">GitHub’da destek isteği oluşturmak için hesap gerekebilir. Bildirimler herkese açıktır; kişisel adres, telefon numarası veya sağlık bilgisi paylaşma. Uygulamanın kendisi hesap gerektirmez.</p>
+      </section>
+    </main>
+    <footer><span>Kırmızı App · Nöbetçi Eczane</span><nav aria-label="Alt sayfalar"><a href="privacy.html">Gizlilik politikası</a><a href="https://github.com/bahadiryl/kirmizi-app-support/issues">Destek</a></nav></footer>
+  </div>
+</body>
+</html>
